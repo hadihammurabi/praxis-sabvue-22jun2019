@@ -28,6 +28,11 @@ const routes = new Router({
       name: 'gambar',
       component: () => import (/*webpackChunkName: "gambar"*/'./views/Gambar.vue'),
     },
+    {
+      path: '/form',
+      name: 'form',
+      component: () => import (/*webpackChunkName: "form"*/'./views/Form.vue'),
+    },
   ]
 });
 
